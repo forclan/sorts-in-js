@@ -39,3 +39,5 @@ const mixarray = (array1, array2) => {
   }
   return result;
 }
+
+export default mergeSort;

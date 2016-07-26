@@ -1,4 +1,4 @@
-export const quickSort = (array) => {
+const quickSort = (array) => {
   // arrayCopy = JSON.parse(JSON.stringify(array));
   // use a shallow copy due to the array is consist of numbers
   if (array.length === 1 || array.length === 0) {
@@ -24,3 +24,5 @@ export const quickSort = (array) => {
   }
   return quickSort(left).concat(midValue, quickSort(right));
 }
+
+export default quickSort;
