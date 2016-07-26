@@ -39,5 +39,3 @@ const mixarray = (array1, array2) => {
   }
   return result;
 }
-
-console.log(mergeSort([123, 23, 12, 53, 13, 5, 6, 45, 1231 ,1923]));
